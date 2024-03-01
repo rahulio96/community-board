@@ -4,9 +4,12 @@ function Card({title, img}) {
 
   return (
     <div className="card">
-        <p>{img}</p>
+        <img className="card-img" src={img} />
         <p>{title}</p>
-        <button>Spotify Playlist</button>
+        <div className="btn-container">
+          <button className="spotify-btn">Spotify Playlist</button>
+          <button className="spotify-btn youtube-btn">YouTube Playlist</button>
+        </div>
     </div>
   )
 }
