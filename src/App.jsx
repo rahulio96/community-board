@@ -1,14 +1,12 @@
 import './App.css'
 import CardContainer from './components/cards/CardContainer'
-
+import Header from './components/Header'
 
 function App() {
 
   return (
     <>
-      <header>
-        <h1>Insert Title Here</h1>
-      </header>
+      <Header />
       <CardContainer />
     </>
   )

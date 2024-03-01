@@ -1,12 +1,12 @@
 import './cards.css'
 
-function Card() {
+function Card({title, img}) {
 
   return (
     <div className="card">
-        <p>Image</p>
-        <p>Description</p>
-        <button>Click me!</button>
+        <p>{img}</p>
+        <p>{title}</p>
+        <button>Spotify Playlist</button>
     </div>
   )
 }
