@@ -4,3 +4,19 @@ body {
     display: flex;
     text-align: center;
 }
+
+@font-face {
+    font-family: halo;
+    src: url("./assets/Halo.woff");
+  }
+
+.halo {
+    font-family: halo;
+    color: #5584AC;
+}
+
+@media only screen and (max-width: 768px) {
+    .halo {
+        font-size: xx-large;
+    }
+}

@@ -1,4 +1,5 @@
 import './cards.css'
+import '../../App.css'
 
 function Card({title, img}) {
 
