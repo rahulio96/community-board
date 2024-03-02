@@ -15,10 +15,6 @@ body {
     color: #5584AC;
 }
 
-.container {
-    padding: 20px;
-}
-
 @media only screen and (max-width: 768px) {
     .halo {
         font-size: xx-large;
