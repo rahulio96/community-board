@@ -2,25 +2,26 @@
 
 Submitted by: Rahul Gupta
 
-This web app: A resource/event board for a community
+This web app: A resource board with links for the Halo soundtracks.
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **There is a unique theme for events or resources relevant to a specific community**
-- [ ] **At least 10 unique resources or events are displayed in a responsive card format**
+- [x] **There is a unique theme for events or resources relevant to a specific community**
+- [x] **At least 10 unique resources or events are displayed in a responsive card format**
 
 The following **optional** features are implemented:
 
-- [ ] Buttons or links to a related resources are on each card component
-- [ ] The site is responsive for both desktop and mobile formats
+- [x] Buttons or links to a related resources are on each card component
+- [x] The site is responsive for both desktop and mobile formats
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* Used an svg hexagonal pattern background for better performance over a background image
+* Added the Halo font (see assets folder) for the title for a stronger theme
 
 ## Video Walkthrough
 
