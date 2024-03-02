@@ -4,6 +4,12 @@
     margin: 2%;
     display: block;
     background-color: #242424;
+    transition: all 0.5s;
+}
+
+.card:hover {
+    box-shadow: 0 0 30px #5584AC;
+    border-color: #5584AC;
 }
 
 .card-container {
